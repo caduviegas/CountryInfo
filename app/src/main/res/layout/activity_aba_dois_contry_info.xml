@@ -4,16 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    tools:context=".Aba_dois_contry_info"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light">
 
     <Button
-        android:id="@+id/button_um"
+        android:id="@+id/button_dois"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Alguma coisa"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/botao_um_inicial"/>
+        android:text="Alguma Coisa 2"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:background="@drawable/botao_blue"/>
 
 </LinearLayout>
