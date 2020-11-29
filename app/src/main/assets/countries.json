@@ -171,5 +171,22 @@
       }
     ],
     "flag": "flag_usa"
-  }
+  },
+{"name": "Alemanha",
+  "alpha3Code":"DEU",
+  "capital": "Berlin",
+  "region": "Europa",
+  "population":823947000,
+  "latlng": [53,27],
+  "area": 357386,
+  "languages": [
+    {
+
+      "iso639_2": "gsw",
+      "name": "Alemão",
+      "nativeName": "Swiss German"
+    }
+  ]
+
+}
 ]
