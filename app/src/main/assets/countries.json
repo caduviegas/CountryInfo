@@ -1,0 +1,175 @@
+[
+  {
+    "name": "Madagascar",
+    "alpha3Code": "MDG",
+    "capital": "Antananarivo",
+    "region": "África",
+    "population": 22434363,
+    "latlng": [-20, 47],
+    "area": 587041,
+    "languages": [
+      {
+        "iso639_2": "fra",
+        "name": "Francês",
+        "nativeName": "Français"
+      },
+      {
+        "iso639_2": "mlg",
+        "name": "Malgaxe",
+        "nativeName": "Fiteny malagasy"
+      }
+    ],
+    "flag": "flag_mdg"
+  },
+  {
+    "name": "Argentina",
+    "alpha3Code": "ARG",
+    "capital": "Buenos Aires",
+    "region": "América do Sul",
+    "population": 43590400,
+    "latlng": [-34, 64],
+    "area": 2780400,
+    "languages": [
+      {
+        "iso639_2": "spa",
+        "name": "Espanhol",
+        "nativeName": "Español"
+      },
+      {
+        "iso639_2": "grn",
+        "name": "Guarani",
+        "nativeName": "Avañe'ẽ"
+      }
+    ],
+    "flag": "flag_arg"
+  },
+  {
+    "name": "Austrália",
+    "alpha3Code": "AUS",
+    "capital": "Canberra",
+    "region": "Oceania",
+    "population": 24117360,
+    "latlng": [-27, 133],
+    "area": 7692024,
+    "languages": [
+      {
+        "iso639_2": "eng",
+        "name": "Inglês",
+        "nativeName": "English"
+      }
+    ],
+    "flag": "flag_aus"
+  },
+  {
+    "name": "Burundi",
+    "alpha3Code": "BDI",
+    "capital": "Bujumbura",
+    "region": "África",
+    "population": 10114505,
+    "latlng": [-3.5, 30],
+    "area": 27834,
+    "languages": [
+      {
+        "iso639_2": "fra",
+        "name": "Francês",
+        "nativeName": "Français"
+      },
+      {
+        "iso639_2": "run",
+        "name": "Kirundi",
+        "nativeName": "Ikirundi"
+      }
+    ],
+    "flag": "flag_bdi"
+  },
+  {
+    "name": "Brasil",
+    "alpha3Code": "BRA",
+    "capital": "Brasília",
+    "region": "América do Sul",
+    "population": 206135893,
+    "latlng": [-10, -55],
+    "area": 8515767,
+    "languages": [
+      {
+        "iso639_2": "por",
+        "name": "Português",
+        "nativeName": "Português"
+      }
+    ],
+    "flag": "flag_bra"
+  },
+  {
+    "name": "México",
+    "alpha3Code": "MEX",
+    "capital": "Cidade do México",
+    "region": "América do Norte",
+    "population": 122273473,
+    "latlng": [23, -102],
+    "area": 1964375,
+    "languages": [
+      {
+        "iso639_2": "spa",
+        "name": "Espanhol",
+        "nativeName": "Español"
+      }
+    ],
+    "flag": "flag_mex"
+  },
+  {
+    "name": "Romênia",
+    "alpha3Code": "ROU",
+    "capital": "Bucareste",
+    "region": "Europa",
+    "population": 19861408,
+    "latlng": [46, 25],
+    "area": 238391,
+    "languages": [
+      {
+        "iso639_2": "ron",
+        "name": "Romeno",
+        "nativeName": "Română"
+      }
+    ],
+    "flag": "flag_rou"
+  },
+  {
+    "name": "Tonga",
+    "alpha3Code": "TON",
+    "capital": "Nuku'alofa",
+    "region": "Oceania",
+    "population": 103252,
+    "latlng": [-20, -175],
+    "area": 747,
+    "languages": [
+      {
+        "iso639_2": "eng",
+        "name": "Inglês",
+        "nativeName": "English"
+      },
+      {
+        "iso639_2": "ton",
+        "name": "Tonganês",
+        "nativeName": "faka Tonga"
+      }
+    ],
+    "flag": "flag_ton"
+  },
+  {
+    "name": "Estados Unidos",
+    "alpha3Code": "USA",
+    "capital": "Washington",
+    "region": "América do Norte",
+    "population": 323947000,
+    "latlng": [38, -97],
+    "area": 9629091,
+    "languages": [
+      {
+        "iso639_2": "eng",
+        "name": "Inglês",
+        "nativeName": "English"
+      }
+    ],
+    "flag": "flag_usa"
+  }
+]
