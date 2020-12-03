@@ -7,13 +7,64 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button_um"
+    <ImageView
+        android:layout_width="172dp"
+        android:layout_height="146dp"
+        android:src="@drawable/onubandeira"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country Info"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informações de todos os Países"
+        android:textSize="12dp"
+        android:layout_gravity="center_horizontal"/>
+    
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Alguma coisa"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/botao_um_inicial"/>
+        android:orientation="vertical"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center_vertical"
+        android:layout_marginTop="16dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escolha o Seu País"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"/>
+
+        <Spinner
+            android:id="@+id/spinner_pais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:backgroundTint="@android:color/white"/>
+
+        <Button
+            android:id="@+id/button_um"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Procurar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/botao_um_inicial"/>
+        
+    </LinearLayout>
+        
+
+
+    
 
 </LinearLayout>
