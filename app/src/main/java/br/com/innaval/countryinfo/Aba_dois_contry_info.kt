@@ -6,6 +6,6 @@ import android.os.Bundle
 class Aba_dois_contry_info : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_aba_dois_contry_info)
+        setContentView(R.layout.detalhespaisesactivity)
     }
 }
