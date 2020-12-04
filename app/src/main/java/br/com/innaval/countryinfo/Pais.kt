@@ -1,12 +1,18 @@
 package br.com.innaval.countryinfo
 
-data class Pais (
-        val nome:String,
-        val continente:String,
-        val populacao:Double,
-        val capitao:String,
-        val area:Double,
-        val coordenadas: List<Double>,
-        val idiomas:List<Idioma>
+import android.os.Parcelable
+import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
 
-)
+
+@Parcelize
+data class Pais (
+        @SerializedName("name")val nome:String,
+        @SerializedName("region") val continente:String,
+        @SerializedName("population") val populacao:Double,
+        @SerializedName("capital") val capital:String,
+        @SerializedName("area") val area:Double,
+        @SerializedName("latlng") val coordenadas: List<Double>,
+        @SerializedName("languages")val idiomas:List<Idioma>
+
+): Parcelable
