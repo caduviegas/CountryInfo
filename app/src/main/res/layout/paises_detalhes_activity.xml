@@ -9,6 +9,7 @@
     android:background="@android:color/holo_blue_dark">
 
     <ImageView
+        android:id="@+id/imagemview_bandeira"
         android:layout_width="172dp"
         android:layout_height="146dp"
         android:layout_gravity="center_horizontal"
