@@ -14,6 +14,6 @@ data class Pais (
         @SerializedName("area") val area:Double,
         @SerializedName("latlng") val coordenadas: List<Double>,
         @SerializedName("languages")val idiomas:List<Idioma>,
-        @SerializedName("flag") val bandeira:String
+        @SerializedName("flag") val bandeira:String?
 
 ): Parcelable
