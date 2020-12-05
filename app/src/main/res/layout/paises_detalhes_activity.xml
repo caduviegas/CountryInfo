@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Aba_dois_contry_info"
+    tools:context=".PaisDetalheActivity"
     android:orientation="vertical"
     android:background="@android:color/holo_blue_dark">
 
@@ -76,5 +76,13 @@
         android:textStyle="bold"
         android:layout_marginTop="16dp"
         android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_idioma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
 
 </LinearLayout>

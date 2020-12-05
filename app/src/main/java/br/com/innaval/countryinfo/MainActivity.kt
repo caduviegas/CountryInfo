@@ -1,6 +1,5 @@
 package br.com.innaval.countryinfo
 
-import android.app.Person
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -37,8 +36,11 @@ class MainActivity : AppCompatActivity() {
         val buttonUm = findViewById<Button>(R.id.button_um)
 
         buttonUm.setOnClickListener {
-            val abrirButton = Intent(this,Aba_dois_contry_info:: class.java )
-            startActivity(abrirButton)
+            val posicao = spinnerPais.selectedItemPosition
+            val pais = paises[posicao]
+            val intent = Intent(this,PaisDetalheActivity:: class.java )
+            intent.putExtra("PAIS",pais)
+            startActivity(intent)
         }
 
     }
